@@ -1,77 +1,177 @@
+<!--
+  ╔══════════════════════════════════════════════════════════════╗
+  ║                                                              ║
+  ║   {{PROJECT_NAME}} — README.md                               ║
+  ║   Modern portfolio README template                           ║
+  ║                                                              ║
+  ║   Replace every {{TOKEN}} with your real values.             ║
+  ║   Search for "{{" to find all placeholders quickly.          ║
+  ║                                                              ║
+  ╚══════════════════════════════════════════════════════════════╝
+-->
+
 <div align="center">
 
-  <!-- ===================================================================== -->
-  <!-- 00. DYNAMIC SVG WAVE HEADER & ANIMATED TERMINAL SUBTITLE              -->
-  <!-- ===================================================================== -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:090d16,50:0f172a,100:0284c7&height=240&section=header&text=CodeNexIQ&fontSize=70&fontColor=ffffff&fontAlignY=35&desc=FULL-STACK%20WEB%20%26%20MOBILE%20APPLICATION%20ENGINEERING&descAlignY=58&descSize=18&descColor=38bdf8" width="100%" alt="CodeNexIQ Banner" />
+<!-- ═══════════════════ HERO BANNER ═══════════════════ -->
 
-  <a href="https://github.com/codenexiq">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=2800&pause=1000&color=38BDF8&center=true&vCenter=true&width=850&lines=%3E+Architecting+Scalable+Full-Stack+Web+Ecosystems+(React+%2F+Next.js);%3E+Engineering+Native+%26+Cross-Platform+Mobile+Apps+(iOS+%2F+Android);%3E+Building+High-Concurrency+APIs+(Node.js+%2F+NestJS+%2F+Laravel);%3E+Managing+Cloud+Infrastructure+%26+Production+Store+Deployments" alt="Terminal Typing Animation" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text={{PROJECT_NAME}}&fontSize=70&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc={{TAGLINE}}&descAlignY=58&descSize=18" width="100%" alt="{{PROJECT_NAME}} banner" />
+
+<!-- ═══════════════════ TITLE & TAGLINE ═══════════════════ -->
+
+# {{PROJECT_NAME}}
+
+### {{TAGLINE}}
+
+<p>
+  <em>{{SHORT_DESCRIPTION_ONE_LINE}}</em>
+</p>
+
+<!-- ═══════════════════ BADGES — ROW 1 ═══════════════════ -->
+
+<p>
+  <a href="https://github.com/{{USER}}/{{REPO}}/stargazers">
+    <img alt="Stars" src="https://img.shields.io/github/stars/{{USER}}/{{REPO}}?style=for-the-badge&logo=github&color=yellow" />
   </a>
+  <a href="https://github.com/{{USER}}/{{REPO}}/network/members">
+    <img alt="Forks" src="https://img.shields.io/github/forks/{{USER}}/{{REPO}}?style=for-the-badge&logo=github&color=blue" />
+  </a>
+  <a href="https://github.com/{{USER}}/{{REPO}}/issues">
+    <img alt="Issues" src="https://img.shields.io/github/issues/{{USER}}/{{REPO}}?style=for-the-badge&logo=github&color=red" />
+  </a>
+  <a href="https://github.com/{{USER}}/{{REPO}}/pulls">
+    <img alt="PRs" src="https://img.shields.io/github/issues-pr/{{USER}}/{{REPO}}?style=for-the-badge&logo=github&color=purple" />
+  </a>
+</p>
 
-  <br/><br/>
+<!-- ═══════════════════ BADGES — ROW 2 ═══════════════════ -->
 
-  <!-- LIVE TELEMETRY & STATUS BADGES -->
-  <p>
-    <a href="https://github.com/codenexiq">
-      <img src="https://img.shields.io/github/followers/codenexiq?label=FOLLOWERS&logo=github&style=for-the-badge&color=0284c7&labelColor=0f172a" alt="GitHub Followers" />
-    </a>
-    <a href="https://github.com/codenexiq">
-      <img src="https://img.shields.io/github/stars/codenexiq?label=TOTAL%20STARS&logo=serverless&style=for-the-badge&color=0284c7&labelColor=0f172a" alt="GitHub Stars" />
-    </a>
-    <img src="https://komarev.com/ghpvc/?username=codenexiq&label=PROFILE+VIEWS&color=0284c7&style=for-the-badge&labelColor=0f172a" alt="Profile Views" />
-    <img src="https://img.shields.io/badge/AVAILABILITY-OPEN_FOR_PROJECTS-10b981?style=for-the-badge&logo=statuspage&logoColor=white&labelColor=0f172a" alt="Availability" />
-  </p>
+<p>
+  <img alt="License" src="https://img.shields.io/badge/License-MIT-2ea44f?style=for-the-badge&logo=opensourceinitiative&logoColor=white" />
+  <img alt="Last Commit" src="https://img.shields.io/github/last-commit/{{USER}}/{{REPO}}?style=for-the-badge&logo=git&color=orange" />
+  <img alt="Repo Size" src="https://img.shields.io/github/repo-size/{{USER}}/{{REPO}}?style=for-the-badge&logo=files&color=informational" />
+  <img alt="Code Size" src="https://img.shields.io/github/languages/code-size/{{USER}}/{{REPO}}?style=for-the-badge&logo=code&color=blueviolet" />
+</p>
+
+<!-- ═══════════════════ BADGES — ROW 3 (TECH STACK) ═══════════════════ -->
+
+<p>
+  <img alt="HTML5" src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
+  <img alt="CSS3" src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
+  <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+  <img alt="React" src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+  <img alt="TailwindCSS" src="https://img.shields.io/badge/Tailwind-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" />
+</p>
+
+<!-- ═══════════════════ CTA BUTTONS ═══════════════════ -->
+
+<p>
+  <a href="{{DEMO_URL}}">
+    <img alt="Live Demo" src="https://img.shields.io/badge/🚀_LIVE_DEMO-000000?style=for-the-badge" />
+  </a>
+  <a href="{{DOCS_URL}}">
+    <img alt="Documentation" src="https://img.shields.io/badge/📚_DOCS-4A90E2?style=for-the-badge" />
+  </a>
+  <a href="https://github.com/{{USER}}/{{REPO}}/issues/new">
+    <img alt="Report Bug" src="https://img.shields.io/badge/🐛_REPORT_BUG-red?style=for-the-badge" />
+  </a>
+  <a href="https://github.com/{{USER}}/{{REPO}}/issues/new">
+    <img alt="Request Feature" src="https://img.shields.io/badge/✨_REQUEST_FEATURE-purple?style=for-the-badge" />
+  </a>
+</p>
 
 </div>
 
-<br/>
+---
 
-<!-- ===================================================================== -->
-<!-- 01. SYSTEM ARCHITECTURE & DEVELOPER MANIFESTO                         -->
-<!-- ===================================================================== -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!--                          TABLE OF CONTENTS                      -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+
+## 📑 Table of Contents
+
+<details open>
+<summary><b>Click to expand / collapse</b></summary>
+
+- [📑 Table of Contents](#-table-of-contents)
+- [📖 About the Project](#-about-the-project)
+  - [Why This Project?](#why-this-project)
+  - [Built With](#built-with)
+- [✨ Features](#-features)
+- [🏗 Architecture](#-architecture)
+- [🚀 Getting Started](#-getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+  - [Environment Variables](#environment-variables)
+  - [Running Locally](#running-locally)
+- [📸 Screenshots](#-screenshots)
+- [🧪 Testing](#-testing)
+- [📦 Build & Deploy](#-build--deploy)
+- [🗺 Roadmap](#-roadmap)
+- [🤝 Contributing](#-contributing)
+- [🐛 Reporting Bugs](#-reporting-bugs)
+- [💬 Community](#-community)
+- [📄 License](#-license)
+- [🙏 Acknowledgements](#-acknowledgements)
+- [📬 Contact](#-contact)
+
+</details>
+
+---
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!--                            ABOUT                                -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+
+## 📖 About the Project
+
+{{PROJECT_NAME}} is {{TWO_TO_THREE_SENTENCE_DESCRIPTION}}. It was built to {{PURPOSE}}, solving {{PROBLEM}} by {{APPROACH}}.
+
+> 💡 **The idea behind it:** {{SHORT_STORY_OR_MOTIVATION}}
+
+### Why This Project?
+
+| Problem | Solution |
+|---------|----------|
+| ❌ {{PROBLEM_1}} | ✅ {{SOLUTION_1}} |
+| ❌ {{PROBLEM_2}} | ✅ {{SOLUTION_2}} |
+| ❌ {{PROBLEM_3}} | ✅ {{SOLUTION_3}} |
+
+### Built With
+
 <div align="center">
-  <img src="https://img.shields.io/badge/01-SYSTEM_ARCHITECTURE_%26_PROFILE-0284c7?style=for-the-badge&logo=opsgenie&logoColor=white&labelColor=090d16" alt="01 System Architecture" />
+
+| Frontend | Backend | Tooling | Deployment |
+|:--------:|:-------:|:-------:|:----------:|
+| {{React}} | {{Node.js}} | {{Vite}} | {{Vercel}} |
+| {{Tailwind}} | {{Express}} | {{ESLint}} | {{GitHub Actions}} |
+| {{TypeScript}} | {{MongoDB}} | {{Prettier}} | {{Docker}} |
+
 </div>
 
-<br/>
+---
 
-```typescript
-interface EngineeringOrganization {
-  readonly brand: string;
-  readonly classification: string;
-  readonly coreCompetencies: {
-    frontendArchitecture: string[];
-    backendEngineering: string[];
-    mobileEcosystems: string[];
-    cmsAndPlugins: string[];
-    devOpsAndCloud: string[];
-  };
-  readonly storeCertifications: {
-    googlePlayConsole: "Active Production Publisher";
-    appleDeveloperProgram: "Active iOS Distribution";
-  };
-  readonly engineeringStandards: string[];
-}
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!--                          FEATURES                               -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
 
-const CodeNexIQ: EngineeringOrganization = {
-  brand: "CodeNexIQ",
-  classification: "Full-Stack Software & Mobile Application Studio",
-  coreCompetencies: {
-    frontendArchitecture: ["React.js", "Next.js (SSR/ISR)", "TypeScript", "Tailwind CSS", "HTML5/CSS3"],
-    backendEngineering: ["Node.js", "NestJS", "Laravel", "PHP 8+", "RESTful & GraphQL APIs"],
-    mobileEcosystems: ["Android Native", "iOS Development", "React Native", "Cross-Platform UI/UX"],
-    cmsAndPlugins: ["WordPress Core", "Custom Plugin Engineering", "Odoo ERP", "Performance Optimization"],
-    devOpsAndCloud: ["Linux SSH Administration", "Hostinger Cloud", "Git/GitHub CI/CD", "Nginx"]
-  },
-  storeCertifications: {
-    googlePlayConsole: "Active Production Publisher",
-    appleDeveloperProgram: "Active iOS Distribution"
-  },
-  engineeringStandards: [
-    "Clean Code & Modular Microservices",
-    "Sub-Second Web Vitals & Payload Optimization",
-    "Pixel-Perfect Responsive & Mobile-First Design",
-    "End-to-End Production Deployment & Maintenance"
-  ]
-};
+## ✨ Features
+
+<div align="center">
+
+| 🎯 Feature | 📝 Description |
+|-----------|----------------|
+| ⚡ **Blazing Fast** | {{Feature description}} |
+| 🎨 **Modern UI** | {{Feature description}} |
+| 📱 **Fully Responsive** | {{Feature description}} |
+| 🔒 **Secure by Default** | {{Feature description}} |
+| 🌗 **Dark Mode** | {{Feature description}} |
+| ♿ **Accessible** | {{Feature description}} |
+| 🌍 **i18n Ready** | {{Feature description}} |
+| 🔌 **API Driven** | {{Feature description}} |
+
+</div>
+
+<details>
+<summary><b>🖼 See feature in action</b></summary>
+
+<br>
